@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cabecalho {
+    width: 360px;
+    height: 360px;
+    background-image: url("../imgs/Rectangle\ 4.svg");
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 1rem;
+}
+
+.menu {
+    padding-top: 0.5rem;
+    padding-right: 0rem;
+}
+
+.frase1 {
+    position: absolute;
+    width: 310px;
+    height: 57px;
+    align-items: center;
+    left: 25px;
+    top: 151px;
+}
+
+.button1 {
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    align-items: center;
+    left: 95px;
+    top: 240px;
+    background: #FAFAFA;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: var(--red);
+    border: none;
+}
+
+.apresentacao {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: var(--dark-blue);
+    padding: 2.5rem;
+    position: absolute;
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+.apresentacao__titulo {
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.apresentacao__subtitulo {
+    text-align: left;
+
+}
+
+.apresentacao__texto {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1rem;
+    padding-top: 1rem;
+    max-width: 100%;
+}
+
+.apresentacao__texto2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1rem;
+    padding-top: 1rem;
+    max-width: 100%;
+}
+
+
+

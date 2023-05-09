@@ -1,0 +1,26 @@
+.clientes__titulo {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: var(--dark-blue);
+    position: absolute;
+    padding-left: 1.5rem;
+    text-align: left;
+    width: 310px;
+    font-weight: 900;
+    font-size: 30px;
+    top: 800px;
+}
+
+.swiper{
+    top: 500px;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}

@@ -1,0 +1,20 @@
+@import url("styles/header.css");
+@import url("styles/clientes.css");
+@import url("styles/catalogo.css");
+@import url("styles/rodape.css");
+@import url("styles/headercatalogo.css");
+
+:root {
+    --white: #FAFAFA;
+    --orange: #EB602B;
+    --pink: #D961A0;
+    --dark-blue: #475C6D;
+    --blue: #008ECC;
+    --green: #2CAD6E;
+    --yellow: #FAB72D;
+    --red: #D61B26;
+}
+
+body {
+    background-color: var(--white);
+}

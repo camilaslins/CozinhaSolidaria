@@ -1,0 +1,17 @@
+.cabecalho2 {
+    width: 360px;
+    height: 360px;
+    background-image: url("../imgs/Rectangle\ 11.svg");
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2 {
+    padding-left: 1rem;
+}
+
+.menu2 {
+    padding-top: 0.5rem;
+    padding-right: 0rem;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozinhaSolidaria</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <span class="cabeçalho_logo"></span>
+            <img src="imgs/Logo.svg" alt="Logo da Cozinha Solidaria" class="logo">
+        </div>
+            <div class="container">
+            <a href="#"><img src="imgs/Botão +.svg" alt="Botão de menu" class="menu"></a>
+            </div>
+        <div class="container">
+            <img src="imgs/Alimente a mudança.svg" alt="frase alimente a mudança" class="frase1">
+        </div>
+        <div class="container">
+          <a class="btn" href="catalogo.html">
+            <button type="button" class="button1">contrate a gente</button>
+          </a>>
+        </div>
+    </header>
+    <section class="apresentacao">
+        <h2 class="apresentacao__titulo">Cozinha Solidária</h2>
+        <h3 class="apresentacao__subtitulo">Sérgio Pereira</h3>
+        <p class="apresentacao__texto">A Cozinha Solidária Sérgio Pereira é um projeto social desenvolvido pela ONG GTP+ em Recife, que fornece refeições nutritivas para pessoas em situação de rua na cidade. O projeto é mantido através do serviço de buffet corporativo oferecido pela ONG para empresas, cujo valor arrecadado é revertido para a compra de ingredientes para as refeições.</p>
+        <p class="apresentacao__texto2">O propósito maior da ONG GTP+ é atender pessoas que vivem e convivem com HIV, promovendo a inclusão social e a dignidade humana para aqueles que são frequentemente marginalizados pela sociedade. Ao adquirir o serviço de buffet corporativo, as empresas contribuem para a continuidade do projeto Cozinha Solidária Sérgio Pereira e ajudam a promover um futuro mais justo e solidário para a comunidade de Recife.</p>
+    </section>
+    <section class="clientes">
+        <h2 class="clientes__titulo">Clientes+</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="imgs/UFPE.svg" alt="logo da Universidade Federal de Pernambuco"></div>
+            <div class="swiper-slide"><img src="imgs/METROPOLE.svg" alt="logo da metropole"></div>
+            <div class="swiper-slide"><img src="imgs/REC.svg" alt="logo da prefeitura do Recife"></div>
+            <div class="swiper-slide"><img src="imgs/CATOLICA.svg" alt="logo da Universidade católica de Pernambuco"></div>
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="catalogo">
+        <h2 class="catalogo__titulo">Catálogo</h2>
+        <div class="catalogo__conteudo">
+            <div class="coffee_break">
+                <img class="basico" src="imgs/basico.svg" alt="fotografia do coffee break básico">
+                <h2 class="titulo__basico">Coffee Break</h2>
+                <h3 class="subtitulo__basico">Básico</h3>
+                <p class="valor1">Valor por pessoa: R$xx,xx</p>
+                <table class="tabela__basico">
+                    <tr>
+                      <td>Bolo simples</td>
+                      <td>1 fatia</td>
+                    </tr>
+                    <tr>
+                      <td>Minissanduíche</td>
+                      <td>2 unidades</td>
+                    </tr>
+                    <tr>
+                      <td>Minissalgado de forno</td>
+                      <td>2 unidades</td>
+                    </tr>
+                    <tr>
+                      <td>Suco</td>
+                      <td>300ml</td>
+                    </tr>
+                    <tr>
+                      <td>Café e água mineral (sem gás)</td>
+                      <td></td>
+                    </tr>
+                  </table>
+                <button type="button" class="button2">Saiba +</button>
+            </div>                   
+            <div class="coffee_break2">
+              <img class="padrao" src="imgs/padrao.svg" alt="fotografia do coffee break padrão">
+              <h2 class="titulo__padrao">Coffee Break</h2>
+              <h3 class="subtitulo__padrao">Padrão</h3>
+              <p class="valor2">Valor por pessoa: R$xx,xx</p>
+              <table class="tabela__padrao">
+                  <tr>
+                      <td>Bolo simples</td>
+                      <td>1 fatia</td>
+                  </tr>
+                  <tr>
+                      <td>Minissanduíche</td>
+                      <td>2 unidades</td>
+                  </tr>
+                  <tr>
+                      <td>Minissalgado de forno</td>
+                      <td>2 unidades</td>
+                  </tr>
+                  <tr>
+                      <td>Minissalgado de frito</td>
+                      <td>3 unidades</td>
+                  </tr>
+                  <tr>
+                      <td>Docinho</td>
+                      <td>2 unidades</td>
+                  </tr>
+                  <tr>
+                      <td>Minibrioche</td>
+                      <td>1 unidade</td>
+                  </tr>
+                  <tr>
+                      <td>Suco</td>
+                      <td>300ml</td>
+                  </tr>
+                  <tr>
+                      <td>Café e água mineral (sem gás)</td>
+                      <td></td>
+                  </tr>
+                </table>
+              <button type="button" class="button__padrao">Saiba +</button>
+            </div>
+            <div class="coffee_break3">
+                <img class="executivo" src="imgs/executivo.svg" alt="fotografia do coffee break executivo">
+                <h2 class="titulo__executivo">Coffee Break</h2>
+                <h3 class="subtitulo__executivo">Executivo</h3>
+                <p class="valor3">Valor por pessoa: R$xx,xx</p>
+                <table class="tabela__executivo">
+                    <tr>
+                        <td>Bolo simples</td>
+                        <td>1 fatia</td>
+                      </tr>
+                      <tr>
+                        <td>Minissanduíche</td>
+                        <td>2 unidades</td>
+                      </tr>
+                      <tr>
+                        <td>Minissalgado de forno</td>
+                        <td>2 unidades</td>
+                      </tr>
+                      <tr>
+                        <td>Minissalgado de frito</td>
+                        <td>3 unidades</td>
+                      </tr>
+                      <tr>
+                        <td>Docinho</td>
+                        <td>3 unidades</td>
+                      </tr>
+                      <tr>
+                        <td>Minibrioche</td>
+                        <td>1 unidade</td>
+                      </tr>
+                      <tr>
+                        <td>Torradas e patê</td>
+                        <td>1 porção</td>
+                      </tr>
+                      <tr>
+                        <td>Salada de fruta</td>
+                        <td>150ml</td>
+                      </tr>
+                      <tr>
+                        <td>Suco</td>
+                        <td>300ml</td>
+                      </tr>
+                      <tr>
+                        <td>Refrigerante</td>
+                        <td>150ml</td>
+                      </tr>
+                      <tr>
+                        <td>Café e água mineral (sem gás)</td>
+                        <td></td>
+                      </tr>
+                </table>
+                <button type="button" class="button__executivo">Saiba +</button>
+            </div>
+    </section>
+    <footer class="rodape">
+      <a href="">
+        <img src="imgs/instagram.svg" alt="logo do instagram" class="logoinsta">
+      </a>
+      <a href="">
+        <img src="imgs/facebook.svg" alt="logo do facebook" class="logoface">
+      </a>
+      <h2 class="logo_footer">Cozinha Solidária</h2>
+      <h3 class="logo2_footer">Sérgio Pereira</h3>
+      <p class="texto_footer">E-mail: gtp@gtp.org.br <br>
+        Telefone: +55 81 3231.0905 <br>
+        Endereço: Av. Manoel Borba, nº 545, 1º andar, Boa Vista, Recife, <br> Pernambuco, Brasil. CEP: 50070-000</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2.7,
+            });
+    </script>
+</body>
+</html>
